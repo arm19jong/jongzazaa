@@ -14,5 +14,5 @@ def rock(str_s, list_n, score_a, score_b):
     elif score_b > score_a:
         return 'B win ' + str(score_b) + '-' + str(score_a)
     return 'DRAW ' + str(score_a)
-
+print 'ac'
 print rock(raw_input(), [], 0, 0)
